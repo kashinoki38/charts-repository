@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: {{ include "test-chart.fullname" . }}
+  name: {{ .Values.service.name }}
   labels:
     app.kubernetes.io/name: {{ include "test-chart.name" . }}
     helm.sh/chart: {{ include "test-chart.chart" . }}
