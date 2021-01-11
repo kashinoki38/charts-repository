@@ -3,7 +3,25 @@ entries:
   test-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-01-12T00:36:35.1067683+09:00"
+    created: "2021-01-12T03:56:02.5932961+09:00"
+    dependencies:
+    - name: envoy
+      repository: https://charts.helm.sh/stable
+      version: 1.9.2
+    description: Echo Happy Helming(via Envoy Proxy).
+    digest: cc5644a1894f6dca239683dc1bf2d842d1cb80bcefe58166a1c264ef02c7333b
+    maintainers:
+    - name: go_vargo
+    name: test-chart
+    sources:
+    - https://github.com/govargo/go-happyhelming
+    type: application
+    urls:
+    - https://github.com/kashinoki38/charts-repository/test-chart-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-01-12T03:56:02.5897851+09:00"
     description: Echo Happy Helming.
     digest: a3b960332ed50e8b78928866ec0c72c5cb718c6a990597b857950c58987fbb8a
     maintainers:
@@ -15,4 +33,4 @@ entries:
     urls:
     - https://github.com/kashinoki38/charts-repository/test-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2021-01-12T00:36:35.1043284+09:00"
+generated: "2021-01-12T03:56:02.5878832+09:00"
